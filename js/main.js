@@ -112,7 +112,7 @@ $(document).ready(function () {
         $(".usps").css("display", "flex");
         $("#popload").trigger("click");
       }
-    }, 30000);
+    }, 300);
   }
 
   // Aminities Tabs Start
@@ -348,7 +348,7 @@ $(document).ready(function () {
 
     $(".popupBack").fadeOut();
     $(".GalleryPopup").css("transform", "translate(-50%, -50%) scale(0)");
-    if ((flag = 1)) {
+    if ((flag == 1)) {
       $("footer").removeClass();
       $("footer").addClass("footerSticky");
       $("footer").hide();
@@ -420,7 +420,7 @@ $(document).ready(function () {
     $("footer").removeClass();
 
     $("footer").addClass("footerPop");
-    $("footer").css("bottom", "unset");
+    // $("footer").css("bottom", "unset");
 
     $("footer").hide();
     $("footer").fadeIn();
@@ -433,9 +433,9 @@ $(document).ready(function () {
 
         setTimeout(() => {
           $(".slide-submit button").css("transition", "all 100ms linear");
-        }, 400);
-      }, 300);
-    }, 500);
+        }, 50);
+      }, 40);
+    }, 60);
   });
 
   // $("#submitBtn").click(function(){
