@@ -223,11 +223,11 @@ $(document).ready(function () {
 
     if ($("#banner").offset().top - $(window).scrollTop() < 0) {
       $("header").css("top", "0");
-      $(".footerSticky").css("bottom", "0px");
+      // $(".footerSticky").css("bottom", "0px");
       // console.log("Hello")
     } else {
       $("header").css("top", "-70px");
-      $(".footerSticky").css("bottom", "-70px");
+      // $(".footerSticky").css("bottom", "-70px");
       // $(".footerSticky").css("transform","translate(0,0)")
       // console.log("top")
     }
